@@ -28,7 +28,7 @@ int main()
 	{
 		PORTB = DISPLAY[speed];
 
-		OCR0B = 11 + 12 * speed; // Set output compare to aproximation of speed as a percentage of 47
+		OCR0B = 11 + 12 * speed; // Set output compare to approximation of speed as a percentage of 47
 		
 		uint16_t delay = DEBOUNCE_DELAY;
 
