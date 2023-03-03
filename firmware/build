@@ -6,7 +6,7 @@ avr-gcc -Wall -Os -mmcu=attiny13 -o output.elf *.c
 
 avr-objcopy -O ihex output.elf output.hex
 
-avrdude -p attiny13 -c avrispmkii -U flash:w:output.hex
+avrdude -p attiny13 -c avrispmkii -U lfuse:w:0x6a:m -U hfuse:w:0xfb:m -U flash:w:output.hex
 
 rm output.elf
 rm output.hex
