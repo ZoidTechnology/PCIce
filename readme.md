@@ -1,5 +1,8 @@
 # PCIce
 A PCI Express card with an inbuilt PWM fan controller and mounting points for an 80mm fan.
+
+PCIce is available to buy on [Tindie](https://www.tindie.com/products/sevencrumbs/pcice/).  
+More information can be found on my [website](https://zoid.com.au/pcice/).
 ## Hardware
 The hardware is based on an ATtiny13A which outputs a 25kHz PWM signal to the fan. A button is used for speed control, and the current speed is displayed on four multiplexed LEDs.
 ## Firmware
